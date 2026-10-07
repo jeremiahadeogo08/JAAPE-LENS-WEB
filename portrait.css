@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(23, 34, 23);
+
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  text-justify: center;
+  max-width: 1500px;
+  margin: 2rem auto;
+  gap: 30rem;
+}
+
+.image-1 img {
+  width: auto;
+  height: 18rem;
+  margin-top: -5rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.8rem;
+  margin: 2rem auto;
+  list-style: none;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.navbar li a:hover {
+  color: greenyellow;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.top-but {
+  margin-top: 2rem;
+}
+
+.top-but button {
+  background-color: rgb(255, 191, 0);
+  padding: 1.5rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.top-but button a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+.top-but button a:hover {
+  color: rgb(0, 76, 252);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.gallary {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 2rem auto;
+  justify-content: space-between;
+  max-width: 1500px;
+}
+
+.gallary .gallary-h2 {
+  color: white;
+  font-size: 4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.gallary .gallary-p {
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  text-align: justify;
+  color: rgb(214, 250, 214);
+}
+
+.gallary .gallary-but {
+    margin-top: 2rem;
+}
+.gallary .gallary-but button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    
+}
+/* IMPORTANT */
+/* .gallary .gallary-but {
+   color: white;
+   transition: 0.3s ease-in-out;
+} */
+
+.gallary .gallary-but button a{
+   color: rgb(232, 232, 232);
+   text-decoration: none;
+}
+
+.gallary .gallary-but button a:hover{
+color:  rgb(255, 191, 0);
+transition: 0.3s ease-in-out;
+cursor: pointer;
+}
+
+
+.gallary-pics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+    max-width: 1500px;
+  align-items: center;
+  margin: 2rem auto;
+  
+}
+
+.gallary-pics img{
+    width: auto;
+  height: 50rem;
+ margin: 1rem 1rem;
+ border: 1px solid white;
+ border-radius: 1rem;
+ 
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-sm {
+  width: auto;
+  height: 18rem;
+  margin-top: -4rem;
+}
+
+.social-icons-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.social-icons {
+  width: 4rem;
+}
